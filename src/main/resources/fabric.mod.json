@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "noblockoverlay",
+  "version": "${version}",
+  "name": "NoBlockOverlay",
+  "description": "Removes the Block overlay. Duh.",
+  "authors": [
+    "ChloeCDN"
+  ],
+  "contact": {
+    "website": "https://chloedev.de/",
+    "homepage": "https://chloedev.de/"
+  },
+  "license": "MIT",
+  "icon": "assets/noblockoverlay/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "noblockoverlay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
